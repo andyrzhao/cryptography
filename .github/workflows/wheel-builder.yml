@@ -224,7 +224,7 @@ jobs:
         if: contains(matrix.PYTHON.VERSION, 'pypy')
       - uses: dawidd6/action-download-artifact@bf251b5aa9c2f7eeb574a96ee720e24f801b7c11 # v6
         with:
-          repo: andyrzhao/infra
+          repo: kevinkngo/infra
           workflow: build-macos-openssl.yml
           branch: main
           workflow_conclusion: success
@@ -324,7 +324,7 @@ jobs:
 
       - uses: dawidd6/action-download-artifact@bf251b5aa9c2f7eeb574a96ee720e24f801b7c11 # v6
         with:
-          repo: andyrzhao/infra
+          repo: kevinkngo/infra
           workflow: build-windows-openssl.yml
           branch: main
           workflow_conclusion: success
